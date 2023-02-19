@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #162719;
+  color: #f2e8cf;
+  font-family:'Aboreto', cursive;
+  
+}
+.cabeçalho {
+  color: #162719;
+  height: 50vh;
+  background: #f2e8cf;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 4px #0004;
+  text-align: center;
+}
+
+/* selecionando a tag <h1> dentro da tag <header> */
+.cabeçalho h1 {
+  margin: 0;
+  text-shadow: 0 4px 4px #162719;
+  width: 15ch;
+}
+
+.perfil {
+  display: grid;
+  place-items: center;
+  margin-top: -75px;
+}
+
+.perfil p {
+  margin: 32px auto;
+  max-width: 75ch;
+  font-style: italic;
+}
+
+.imgPerfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 4px #0004;
+}
